@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CRUD NodeJS</title>
+    <title>CRUD JavaScript</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
+    <h1>Social Media Posts</h1>
+    <div class="container">
+        <form id="form">
+          <p>Write what you can post</p>
+          <textarea name="data" id="input" rows="20" cols="40"></textarea>
+          <br>
+          <div id="msg"></div>
+          <button type="submit">Post</button>
+        </form>
+      <div class="posts">
+        <h3>Your posts are here</h3>
+        <div id="post">
+          <!--Posts are here-->
+        </div>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
