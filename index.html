@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-    <h1>Social Media Posts</h1>
+    <h1 class="title">Social Media Posts</h1>
     <div class="container">
         <form id="form">
-          <p>Write what you can post</p>
-          <textarea name="data" id="input" rows="20" cols="40"></textarea>
+          <p class="subtitle">Write you post here</p>
+          <textarea placeholder="News??" name="data" id="input" rows="15" cols="30"></textarea>
           <br>
-          <div id="msg"></div>
-          <button type="submit">Post</button>
+          <div id="msg">.</div>
+          <button class="post-button" type="submit">Post</button>
         </form>
       <div class="posts">
-        <h3>Your posts are here</h3>
+        <p class="subtitle">Your posts</p>
         <div id="post">
           <!--Posts are here-->
         </div>
